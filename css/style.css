@@ -90,3 +90,39 @@ header nav {
 #recursos .box img {
     width: 150px;
 }
+
+#novedades .container {
+    justify-content: center;
+}
+
+#novedades h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#novedades h3 {
+    font-size: 20px;
+}
+
+#novedades .content-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1.2em;
+    min-width: 800px;
+}
+
+#novedades .content-table thead tr {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+#novedades .content-table tr,
+.content-table td {
+    padding: 10px 10px;
+}
+
+#novedades .content-table tbody tr {
+    border-bottom: 1px solid gray;
+}
